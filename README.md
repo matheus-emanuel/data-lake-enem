@@ -4,6 +4,8 @@ Eu trabalho como Engenheiro(a) de Dados em uma grande instituição educacional.
 ## Pontos importantes
 - [Definindo o ambiente](#definindo-o-ambiente)
 - [Conseguindo os dados](#conseguindo-os-dados)
+- [Começando a trabalhar os dados](#começando-a-trabalhar-os-dados)
+- [Disponibilizando os dados no BigQuery](#disponibilizando-os-dados-no-bigQuery)
 ## Definindo o ambiente
 A primeira coisa a se fazer é criar um ambiente virtual em python, para que possamos ter um ambientes específico e "limpo" para instalar-mos as bibliotecas necessárias. Então como primeira parte vamo criar o ambiente, para isso basta abrir o cmd e navegar até a pasta onde você deseja criar o ambiente virtual
 ```cmd
