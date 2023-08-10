@@ -6,6 +6,7 @@ Eu trabalho como Engenheiro(a) de Dados em uma grande instituição educacional.
 - [Conseguindo os dados](#conseguindo-os-dados)
 - [Começando a trabalhar os dados](#começando-a-trabalhar-os-dados)
 - [Disponibilizando os dados no BigQuery](#disponibilizando-os-dados-no-bigquery)
+- [conclusão e próximos passos](conclusão-e-próximos-passos)
 ## Definindo o ambiente
 A primeira coisa a se fazer é criar um ambiente virtual em python, para que possamos ter um ambientes específico e "limpo" para instalar-mos as bibliotecas necessárias. Então como primeira parte vamo criar o ambiente, para isso basta abrir o cmd e navegar até a pasta onde você deseja criar o ambiente virtual
 ```cmd
@@ -214,7 +215,7 @@ job = bigquery_client.load_table_from_uri(
 ```
 Como parquet criar vários pequenos arquivos precisamos usar o caractere curinga '*' para ler todos os arquivos e pronto nosso arquivo já está disponível para consulta no GCP de forma rápida e segura
 
-## conclusão e próximos passos
+## Conclusão e próximos passos
 Essa é só uma das várias formas que podemos realizar este processo, outro ponto importante é que esse processe não é de graça principalmente o cluster que é pago por hora com isso tenha em mente que ao terminar todo o uso desligue tudo para não ter susto com a fatura do cartão no final do mês, uma alternativa interessante é definir alertas de custos um valor que você está disposto a pagar por mês. Outro ponto é usar os $300 que a google disponibiliza para novos usuiários
 
 Como próximos passos podemos automatizar esse processo usando o Cloud Composer (airflow dentro do GCP) bem como criar um código em terraform para que possamos subir o ambiente rapidamente e fazer alterações.
