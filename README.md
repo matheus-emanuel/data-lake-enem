@@ -138,7 +138,7 @@ if __name__ == '__main__':
   url = upload_csv_file(bucket_name, file_name, file_content)
   print(url)
 ```
-E aqui temos algumas considerações, caso você use o sistema operacional windows eu  indico copiar o caminho e quando for colocar o caractere 'r' antes da string, isso por que a barra que o windows usa é a barra invertida '\' que no python significa quebra de linha, logo dará um erro na hora de rodar o código como deu comigo.
+E aqui temos algumas considerações, caso você use o sistema operacional windows eu  indico copiar o caminho e quando for colocar o caractere 'r' antes da string, isso por que a barra que o windows usa é a barra invertida ""\"" que no python significa quebra de linha, logo dará um erro na hora de rodar o código como deu comigo.
 
 2. Agora vamos fazer o upload usando o gsutil
 ``` bash
