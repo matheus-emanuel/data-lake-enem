@@ -9,7 +9,16 @@ Para criar o ambiente virtual basta usar o seguinte comando no cmd
 ```cmd
 python -m venv nome-do-ambiente
 ```
-E para ativa-lo é só usar o seguinte comando
+E para ativa-lo é só usar:
 ```cmd
 nome-do-ambiente\Scripts\activate
 ```
+Por fim, com o ambiente virtual já criado basta instalar as bibliotecass que serão usadas nesse projeto. Elas foram disponibilizadas em um requirements.txt com o nome e a versão de cada biblioteca usada. Para instalar todas as bibliotecas de uma vez basta usar o comando pip com o argumento -r, assim ele lerá de um arquivo como o nome do arquivo que foi disponibilizado nesse github é requirments e seu tipo é .txt vamos usar da seguinte forma:
+```cmd
+pip -r requirements.txt
+```
+
+Pronto, com o ambiente virtual já criado e as bibliotecas necessárias já instaladas podemos ir para o próximo passo.
+
+## Conseguindo os dados
+O próximo passo para disponibilizar os dados é conseguir os dados brutos, eles podem vir de várias fontes e em vários formatos. No caso deste projeto ele foi disponibilizado no seguinte [link](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem) 
