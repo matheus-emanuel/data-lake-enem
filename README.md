@@ -21,4 +21,9 @@ pip -r requirements.txt
 Pronto, com o ambiente virtual já criado e as bibliotecas necessárias já instaladas podemos ir para o próximo passo.
 
 ## Conseguindo os dados
-O próximo passo para disponibilizar os dados é conseguir os dados brutos, eles podem vir de várias fontes e em vários formatos. No caso deste projeto ele foi disponibilizado no seguinte [link](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem) 
+O próximo passo para disponibilizar os dados é conseguir os dados brutos, eles podem vir de várias fontes e em vários formatos. No caso deste projeto ele foi disponibilizado no seguinte [link](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem). Há varias formas de extrair esse dado, usando web scraping, baixando os dados via código com o cURL ou o wget e baixando os dados, a alternativa escolhida foi baixar os dados por X motivos
+1. Os dados não são excessivamente grandes
+2. Será feita uma análise pontual
+3. Não será recorrente
+
+Com isso, também já temos os dados baixados e podemos seguir para o ponto seguinte.
